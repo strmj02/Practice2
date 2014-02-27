@@ -15,6 +15,7 @@
 		2C225D8918BD2D6200A2E7C3 /* SuperCardAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C225D8818BD2D6200A2E7C3 /* SuperCardAppDelegate.m */; };
 		2C225D8C18BD2D6200A2E7C3 /* SuperCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C225D8B18BD2D6200A2E7C3 /* SuperCardViewController.m */; };
 		2C225D8F18BD2D6200A2E7C3 /* SuperCardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C225D8D18BD2D6200A2E7C3 /* SuperCardViewController.xib */; };
+		2C225D9718BD2DEA00A2E7C3 /* PlayingCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C225D9618BD2DEA00A2E7C3 /* PlayingCardView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,8 @@
 		2C225D8A18BD2D6200A2E7C3 /* SuperCardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SuperCardViewController.h; sourceTree = "<group>"; };
 		2C225D8B18BD2D6200A2E7C3 /* SuperCardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperCardViewController.m; sourceTree = "<group>"; };
 		2C225D8E18BD2D6200A2E7C3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SuperCardViewController.xib; sourceTree = "<group>"; };
+		2C225D9518BD2DEA00A2E7C3 /* PlayingCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCardView.h; sourceTree = "<group>"; };
+		2C225D9618BD2DEA00A2E7C3 /* PlayingCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCardView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 				2C225D8A18BD2D6200A2E7C3 /* SuperCardViewController.h */,
 				2C225D8B18BD2D6200A2E7C3 /* SuperCardViewController.m */,
 				2C225D8D18BD2D6200A2E7C3 /* SuperCardViewController.xib */,
+				2C225D9518BD2DEA00A2E7C3 /* PlayingCardView.h */,
+				2C225D9618BD2DEA00A2E7C3 /* PlayingCardView.m */,
 				2C225D7F18BD2D6200A2E7C3 /* Supporting Files */,
 			);
 			path = SuperCard;
@@ -165,6 +170,7 @@
 				2C225D8518BD2D6200A2E7C3 /* main.m in Sources */,
 				2C225D8918BD2D6200A2E7C3 /* SuperCardAppDelegate.m in Sources */,
 				2C225D8C18BD2D6200A2E7C3 /* SuperCardViewController.m in Sources */,
+				2C225D9718BD2DEA00A2E7C3 /* PlayingCardView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

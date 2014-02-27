@@ -14,14 +14,19 @@
 
 @implementation SuperCardViewController
 
+@synthesize cardView;
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    cardView.suit = @"♥";
+    cardView.rank = 13;
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
 - (void)viewDidUnload
 {
+    [self setCardView:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
 }
